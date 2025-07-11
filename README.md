@@ -1,5 +1,4 @@
-
-
+```
 - Create new items:
 curl -X POST http://localhost:8088/items -H "Content-Type: application/json" -d '{"name":"Apple G", "description":"This is a green apple"}'
 
@@ -14,3 +13,4 @@ curl -X POST http://localhost:8088/items/1 -H "Content-Type: application/json" -
 
 - Delete item by ID
 curl -X DELETE http://localhost:8088/items/1
+```
